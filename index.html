@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Radu-Alexandru Dragomir personal homepage</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+
+:root {
+  --c0: #3d301e;
+  --c1: #4f3f28;
+  --c3: #dbc6a9;
+  --c4: #ada292;
+  --c5: #ede7df;
+}
+
+body {background-color: var(--c5);
+text-align: justify;
+font-size: 13px;}
+
+h1,h2,h3,h4,h5,h6 {font-family:serif;
+  letter-spacing:1px;
+  color: var(--c0);
+}
+
+b{
+  color: var(--c0);
+}
+
+.nav{
+    /* text-transform: uppercase; */
+    color: var(--c1);
+    list-style:none;
+    margin:0;
+    padding: 0px 0px 1px 0px;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:0px 30px;
+}
+
+.publis li{
+  margin: 15px 0;
+  list-style: square;
+}
+
+</style>
+
+<body>
+
+  <div class="w3-content" style="max-width:900px; background-color:white;">
+
+  <div class = "w3-center" style = "padding:20px">
+    <h2 style = "color:var(--c1);">Radu-Alexandru Dragomir</h2>
+
+    <div style="color:var(--c4);">- Post-doctoral researcher in computational mathematics -</div>
+
+  </div>
+
+  <!-- <div class="w3-content"> -->
+    <img src="transfagarasan4.jpg" class="w3-image  w3-grayscale-min w3-opacity-min" style="width:100%; height:300px">
+  <!-- </div> -->
+
+
+  <!-- Navbar (sit on top) -->
+    <div class="" style = "background-color: var(--c3);">
+        <ul class = "nav">
+        <li><a class="w3-bar-item w3-button w3-padding-16 w3-hover-brown" href="#about">About me</a></li>
+        <li><a class="w3-bar-item w3-button w3-padding-16 w3-hover-brown" href="#research">Research</a></li>
+        <li><a class="w3-bar-item w3-button w3-padding-16 w3-hover-brown" href="Radu-Alexandru_Dragomir_CV.pdf">CV</a></li>
+        <li><a class="w3-bar-item w3-button w3-padding-16 w3-hover-brown" href = "https://scholar.google.com/citations?user=qhBBVKMAAAAJ&hl=fr">Google Scholar</a></li>
+        <li><a class="w3-bar-item w3-button w3-padding-16 w3-hover-brown" href = "https://github.com/RaduAlexandruDragomir"> GitHub</a></li>
+        </ul>
+    </div>
+
+  <!-- Header -->
+<!-- <header class="w3-display-container w3-center w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home"> -->
+  <!-- <img class="w3-image" src="transfagarasan.jpg"> -->
+<!-- </header> -->
+
+
+
+  <!-- Page content -->
+  <div class="w3-content w3-padding-large">
+    <!-- about section  -->
+    <div class="w3-row w3-padding-12" id="about">
+
+    <!-- about text -->
+    <div class="w3-col m6 w3-padding">
+
+      <h2 class="">About me</h2><br
+      <p >Since September 2021, I am a post-doctoral researcher working at <a href="https://uclouvain.be/fr/index.html" >Université Catholique de Louvain</a> in Belgium under the supervision of Yurii Nesterov.</p>
+
+      <p>Prior to that, I did my PhD jointly with <a href="https://www.tse-fr.eu/fr/people/jerome-bolte">Jérôme Bolte</a> at Université Toulouse Capitole and <a href="https://www.di.ens.fr/~aspremon/index.html">Alexandre d'Aspremont</a> within the <a href = "https://www.di.ens.fr/sierra/">SIERRA</a> team, which is part of the <a href="https://www.di.ens.fr">D.I. ENS</a> in Paris.</p>
+
+
+      <p>
+      <b>Email: </b> radu.dragomir [at] uclouvain.be
+      </p>
+
+      <!-- <p> -->
+         <!-- &middot
+        <a href = "https://scholar.google.com/citations?user=qhBBVKMAAAAJ&hl=fr">Google Scholar</a>
+        &middot
+        <a href = "https://github.com/RaduAlexandruDragomir"> GitHub</a> -->
+      <!-- </p> -->
+
+
+
+    </div>
+
+    <!-- profile photo -->
+    <div class="w3-col m6 w3-padding-large w3-hide-small w3-center">
+      <div style="padding:10% 0px">
+     <img src="profile.png" class="w3-round w3-image" style="width:70%; ">
+      </div>
+    </div>
+
+    </div>
+
+    <hr>
+
+    <!-- research section -->
+    <div class="w3-row" id="research">
+    <div class="w3-col w3-padding publis">
+        <h2>Research</h2>
+
+        <p>I study optimization methods for solving large-scale problems from various areas of engineering and science such as signal processing and machine learning.
+
+
+          I mainly focus on algorithms which use non-Euclidean updates in order to adapt to the geometry of the objective function (such as <i>mirror descent</i> and <i>Bregman methods</i>). I also work on the computer-aided analysis technique called <i>performance estimation</i>. </p>
+
+          <br>
+
+        <h3>Refereed publications</h3>
+
+          <ul>
+            <li> R-A. Dragomir, M. Even, H. Hendrikx. <b> Fast Stochastic Bregman Gradient Methods: Sharp Analysis and Variance Reduction</b>.
+              <br> <i>International Conference on Machine Learning,</i> 2021.
+              <a href="http://proceedings.mlr.press/v139/dragomir21a">[PMLR]</a>
+               <a href ="https://arxiv.org/abs/2104.09813">[arxiv]</a> <a href = "papers/stochastic-bregman_slides.pdf">[slides]</a>
+
+            </li>
+
+            <li> R-A. Dragomir, A. B. Taylor, A. d'Aspremont, J. Bolte. <b>Optimal Complexity and Certification of Bregman First-Order Methods.</b>
+              <br> <i>Mathematical Programming,</i> 2021.
+              <a href = "https://link.springer.com/article/10.1007%2Fs10107-021-01618-1">[springer]</a>
+              <a href ="https://arxiv.org/abs/1911.08510">[arxiv]</a>
+              <a href = "https://www.geogebra.org/classic/re5c2phw">[GeoGebra demo]</a>
+              <a href = "https://github.com/RaduAlexandruDragomir/BregmanPerformanceEstimation">[code]</a>
+              </li>
+
+            <li>  R-A. Dragomir, A. d'Aspremont, J. Bolte. <b>Quartic First-Order Methods for Low-Rank Minimization.</b>
+              <br> <i>Journal of Optimization Theory and Applications,</i> 2021.
+              <a href = "https://doi.org/10.1007/s10957-021-01820-3">[springer]</a>
+              <a href ="https://arxiv.org/abs/1901.10791">[arxiv]</a>
+              <a href="https://github.com/RaduAlexandruDragomir/QuarticLowRankOptimization">[code]</a>
+
+            </li>
+          </ul>
+
+        <h3>Thesis</h3>
+          <ul>
+            <li> R-A. Dragomir, <b>Bregman Gradient Methods for Relatively-Smooth Optimization.</b>
+              <br>
+                <i>PhD thesis,</i> 2021.
+
+              Advised by Jérôme Bolte and Alexandre d'Aspremont. <a href ="papers/thesis_dragomir.pdf">[pdf]</a>
+              <a href = "papers/thesis_dragomir_slides.pdf">[slides]</a>
+              <a href = "https://www.youtube.com/watch?v=uHnLYHhi0aw">[video]</a>
+            </li>
+          </ul>
+          <br><br><br>
+      </div>
+      </div>
+
+  </div>
+  </div>
+
+</div>
+
+</body>
+</html>
