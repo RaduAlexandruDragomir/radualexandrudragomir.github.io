@@ -12,6 +12,7 @@
   --c3: #dbc6a9;
   --c4: #ada292;
   --c5: #ede7df;
+  --c6: #f2340e;
 }
 
 body {background-color: var(--c5);
@@ -27,6 +28,10 @@ b{
   color: var(--c0);
 }
 
+.highlight{
+  font-weight: bold;
+  color: var(--c6)
+}
 .nav{
     /* text-transform: uppercase; */
     color: var(--c1);
@@ -94,24 +99,24 @@ b{
 
     <!-- about text -->
     <div class="w3-col m6 w3-padding">
-
+      
+      
       <h2 class="">About me</h2><br
-      <p >Since 2024, I am an assistant professor in Applied Mathematics in the <a href="https://www.telecom-paris.fr/fr/recherche/laboratoires/laboratoire-traitement-et-communication-de-linformation-ltci/les-equipes-de-recherche/signal-statistique-et-apprentissage-s2a">S2A team</a> at <a href="https://www.telecom-paris.fr">Télécom Paris</a>. My research revolves around machine learning and signal processing methods.
+      <p >I am an assistant professor in Applied Mathematics in the <a href="https://www.telecom-paris.fr/fr/recherche/laboratoires/laboratoire-traitement-et-communication-de-linformation-ltci/les-equipes-de-recherche/signal-statistique-et-apprentissage-s2a">S2A team</a> at <a href="https://www.telecom-paris.fr">Télécom Paris</a>. My research revolves around Optimization and Machine Learning.
       </p>
       
-      <p>Prior to that, I held two post-doctoral positions, at <a href="https://uclouvain.be/fr/index.html" >UCLouvain</a> with Yurii Nesterov and then at <a href="https://www.epfl.ch/en/" >EPFL</a> in the OPTIM group of <a href="https://www.nicolasboumal.net">Nicolas Boumal</a>.</p>
-      <!-- <p >Since October 2022, I am a post-doctoral researcher working at <a href="https://www.epfl.ch/en/" >EPFL</a> in the group of <a href="https://www.nicolasboumal.net">Nicolas Boumal</a>.</p> -->
-
-      <!-- <p >Prior to that, I held a post-doctoral position at <a href="https://uclouvain.be/fr/index.html" >UCLouvain</a> in Belgium under the supervision of Yurii Nesterov.</p> -->
-
-
-      <p>From 2018 to 2021, I did my PhD jointly with <a href="https://www.tse-fr.eu/fr/people/jerome-bolte">Jérôme Bolte</a> and <a href="https://www.di.ens.fr/~aspremon/index.html">Alexandre d'Aspremont</a> within the <a href = "https://www.di.ens.fr/sierra/">SIERRA</a> team in Paris.</p>
+      <p>Prior to that, I held two post-doctoral positions, at <a href="https://uclouvain.be/fr/index.html" >UCLouvain</a> with Yurii Nesterov and then at <a href="https://www.epfl.ch/en/" >EPFL</a> in the OPTIM group of <a href="https://www.nicolasboumal.net">Nicolas Boumal</a>
+        From 2018 to 2021, I did my PhD jointly with <a href="https://www.tse-fr.eu/fr/people/jerome-bolte">Jérôme Bolte</a> and <a href="https://www.di.ens.fr/~aspremon/index.html">Alexandre d'Aspremont</a> within the <a href = "https://www.di.ens.fr/sierra/">SIERRA</a> team in Paris.</p>
 
 
       <p>
       <b>Email:  </b> dragomir [at] telecom-paris.fr
       </p>
-
+      
+      <p>
+      <span class="highlight">M2 research internship available:</span>
+       <a href = "resources/offre_stage_particules.pdf">theory of Particle Swarm Optimization</a> (co-advised with <a href = "https://bianchi.wp.imt.fr">Pascal Bianchi</a>).
+      </p>
       <!-- <p> -->
          <!-- &middot
         <a href = "https://scholar.google.com/citations?user=qhBBVKMAAAAJ&hl=fr">Google Scholar</a>
@@ -136,21 +141,20 @@ b{
 
     <!-- research section -->
     <div class="w3-row" id="research">
-    <div class="w3-col w3-padding publis">
+    <div class="w3-col w3-padding publis">  
         <h2>Research</h2>
         
-        <p>I study optimization methods for solving large-scale problems arising in signal processing and data science. My research revolves around understanding problems with <b>non-quadratic</b> and <b>non-convex</b> objectives. Among others, I am interested in:
+        <p>I study optimization methods for solving large-scale problems arising in signal processing and data science. Some of my topics of interest are
           <ul class="smalllist">
-            <li>Mirror descent</li>
-            <li>Implicit bias of neural network training</li>
-            <li>Nonlinear inverse problems</li>
-            <li>Computer-aided performance estimation</li>
+            <li>Non-convex optimization</li>
+            <li>Gradient descent and its non-Euclidean variants (mirror descent...)</li>
+            <li>Dynamics of neural network training</li>
           </ul>
           
           <p>I am also interested on the <b>ethical</b> aspects of machine learning and artificial intelligence. I explore topics such as:</p>
           
           <ul class="smalllist">
-            <li>Reliability and robustness of machine learning algorithms</li>
+            <li>Reliability of machine learning algorithms</li>
             <li>Political impact of social networks and recommender systems</li>
             <li>Environnmental cost of AI</li>
           </ul>
